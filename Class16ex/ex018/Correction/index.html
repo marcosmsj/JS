@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers analyser</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Numbers analyser</h1>
+    </header>
+    <section>
+        <div>
+            <p>Number (between 1 and 100): 
+            <input type="number" name="fnum" id="fnum"> 
+            <input type="button" value="Add" onclick="adicionar()"></p>
+        </div>
+        <div>
+            <select name="number" id="flista" size="10"></select>
+            <p><input type="button" value="End" onclick="finalizar()"></p>
+        </div>
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>&copy; Marcos</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
